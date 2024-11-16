@@ -96,3 +96,9 @@ header{
         margin: 0 10px;
     }
 }
+
+@media (max-width: 576px) {
+    .text-content p{
+        font-size: 16px;
+    }
+}
