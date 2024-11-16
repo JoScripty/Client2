@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
-    text-decoration: none;
+    text-decoration: none !important;
     font-family: "Raleway", sans-serif;
 }
 
@@ -72,6 +72,18 @@ header{
 .img-fit{
     object-fit: contain;
     object-position: center;
+}
+
+.social-media a > svg path,
+.social-media a > svg path
+{
+    transition: all .3s ease-in-out;
+}
+
+.social-media a:hover > svg path,
+.social-media a:hover > svg circle
+{
+    fill: #1d2228 !important;
 }
 
 @media (max-width: 992px) {
