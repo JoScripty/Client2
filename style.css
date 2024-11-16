@@ -74,6 +74,10 @@ header{
     object-position: center;
 }
 
+.social-media a{
+    text-decoration: none !important;
+}
+
 .social-media a > svg path,
 .social-media a > svg path
 {
